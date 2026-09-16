@@ -15,7 +15,7 @@ def find_root():
     return Path(__file__).resolve().parent
 
 ROOT = find_root()
-SONARQUBE_WORKFLOW = ROOT / ".github" / "workflows" / "sonarqube.yml"
+SONARQUBE_WORKFLOW = ROOT / ".github" / "workflows" / "build.yml"
 RESULTS_FILE = os.environ.get("CLASSROOM_RESULTS")
 
 PASS = 0
